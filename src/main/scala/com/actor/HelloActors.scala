@@ -1,4 +1,4 @@
-package concurrency.actor
+package com.actor
 /***
   * Excerpted from "Seven Concurrency Models in Seven Weeks",
   * published by The Pragmatic Bookshelf.

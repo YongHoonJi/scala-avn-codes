@@ -1,4 +1,4 @@
-package concurrency.actor.state
+package com.actor.state
 
 import akka.actor._
 

@@ -21,7 +21,6 @@ class PageReader() {
       } catch {
         case e: Exception => None
       }
-
     case _ => {
       None
     }
@@ -29,7 +28,6 @@ class PageReader() {
 
   def split(it: Option[List[String]]): List[Char] = {
     val filtered = it.reduce((a, b) => (a + "" + b))
-    println(filtered)
     filtered
       .replaceAll("<\\/?[a-z][a-z0-9]*[^<>]*>|<!--.*?-->", "")
       .replaceAll("<script.*>.*<\\/script>", "")
@@ -41,6 +39,5 @@ class PageReader() {
 
 val wc = new PageReader()
 val it = wc.readFile("https://en.wikipedia.org/wiki/Scala_(programming_language)")
-println(it)
   it.groupBy(identity)
   .mapValues(_.size)

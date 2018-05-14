@@ -1,4 +1,4 @@
-package concurrency.actor.hello
+package com.actor.hello
 
 import akka.actor._
 
