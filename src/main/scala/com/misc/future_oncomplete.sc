@@ -1,6 +1,6 @@
-import scala.util._
+import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent._
-import ExecutionContext.Implicits.global
+import scala.util._
 
 val futureFail = Future {
   throw new Exception("Error!")

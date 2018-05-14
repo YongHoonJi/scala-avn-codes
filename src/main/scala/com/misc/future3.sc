@@ -1,7 +1,6 @@
 
-import scala.concurrent.Future
 import scala.concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.duration._
+import scala.concurrent.Future
 import scala.util.control.NonFatal
 
 case class PatentDocument(doc: String)

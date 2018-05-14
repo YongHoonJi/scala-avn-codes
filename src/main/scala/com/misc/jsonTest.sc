@@ -1,6 +1,6 @@
 
-import spray.json._
 import spray.json.DefaultJsonProtocol._
+import spray.json._
 
 case class Vegetable(name: String, color: String)
 implicit val VegetableFormat = jsonFormat2(Vegetable)

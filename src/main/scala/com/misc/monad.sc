@@ -13,9 +13,8 @@ bind and flatMap - 감싼 값에 대해 꺼낼 수 있는 방법을 제공.
 꺼낸 값을 가지고 원하는 형식으로 변형 후 그 값을 감싸서 반환
  */
 
-import scala.concurrent.Future
-import scala.concurrent.Await
 import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.{Await, Future}
 import scala.concurrent.duration.Duration
 
 

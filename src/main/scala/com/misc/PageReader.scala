@@ -1,4 +1,4 @@
-package hama.misc
+package com.misc
 
 import scala.io.Source
 

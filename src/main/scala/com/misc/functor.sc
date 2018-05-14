@@ -33,7 +33,6 @@ functor 예제
  */
 
 import cats.Functor
-import cats.std.list._
 
 val list1 = List(1,2,3)
 
